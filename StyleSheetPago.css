@@ -1,0 +1,81 @@
+body{background:#2d2d2d;
+  font-family: arial, helvetica, sans-serif;
+}
+
+a{padding: 20px;}
+a:hover{text-decoration: underline;}
+a{text-decoration: none; color: #fff}
+
+#wrap{
+  margin: auto;
+  width: 80%;
+  clear: both;
+}
+
+header{
+  color: #fff;
+  text-align: center;
+  font-size: 40px;
+  margin: 5px;
+}
+
+.CajaMetodoDePago{
+  padding: 5px;
+  margin: 5px;
+  border-radius: 10px;
+  width: 50%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.MetodoDePago{
+  background-color: #A20CE8;
+  color: #fff;
+  display: inline-block;
+  padding: 2vw;
+  border-radius: 50%;
+  margin: 15px;
+}
+
+.ConfirmarPago{
+  background-color: #fff;
+  padding: 5px;
+  border-radius: 10px;
+  width: 50%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.btn{
+  font-family: sans-serif;
+  font-size: 16px;
+  background-color: #ffc632;
+  border-color: #ffc632;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+p{
+  text-align: left;
+}
+
+@media screen and (max-width: 910px){
+#wrap{
+  width: 100%;
+}
+
+.CajaMetodoDePago{
+  width: 80%;
+  }
+
+.MetodoDePago{
+  margin: 0.1vw;
+}
+
+
+.ConfirmarPago{
+  width: 80%;
+  margin-top: 1vh;
+}
+
+}
